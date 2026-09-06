@@ -9,6 +9,16 @@ requirements differ from on-site ones, and how demand shifts month over month.
 
 Currently ingests from [GetOnBrd](https://www.getonbrd.com/).
 
+## Findings
+
+From 611 postings across 8 categories (Sept 2026):
+
+- **6.7%** target junior or entry level
+- **20%** are fully remote without geographic restrictions
+- **1%** are both
+
+[Full analysis →](docs/analysis.md)
+
 ## Setup
 
 ```bash
