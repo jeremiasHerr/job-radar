@@ -94,13 +94,13 @@ Documented quirks found in the GetOnBrd API:
 
 ## Roadmap
 
-- [ ] Query multiple search terms and paginate beyond the first page
 - [ ] Resolve company names via `/companies/{id}` with a local cache
 - [ ] Extract technologies from posting text (`description`, `functions`, `desirable`)
 - [ ] Normalize technology names and synonyms into a dedicated table
 - [ ] Analytics queries: demand by stack, seniority, and modality over time
 - [ ] Track posting lifespan via `ON CONFLICT DO UPDATE` on `updated_at`
 - [ ] Add Argentine job boards as additional sources
+- [ ] Validate the extractor against an LLM labeled sample.
 
 ## Stack
 
