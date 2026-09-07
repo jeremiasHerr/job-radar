@@ -137,7 +137,7 @@ def main():
                     cur.execute(INSERT_JOB_SQL, job_values)
                 print(f"{category} p{page}: {len(jobs)} jobs")
                 time.sleep(0.5)
-                conn.commit()
+    conn.commit()
             
 
 if __name__ == "__main__":
