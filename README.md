@@ -17,8 +17,6 @@ From 611 postings across 8 categories (Sept 2026):
 - **20%** are fully remote without geographic restrictions
 - **1%** are both
 
-[Full analysis →](docs/analysis.md)
-
 ## Setup
 
 ```bash
