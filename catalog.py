@@ -290,5 +290,12 @@ TECH_CATALOG = {
     "product owner certificado": "certification",
     "green belt": "certification",
     "black belt": "certification",
+    #Automation
     "cbap": "certification",
+    "zapier": "automation",
+    "n8n": "automation",
+    "airtable": "automation",
+    "hubspot": "business-tool",
+    "clay": "automation",
+    "anthropic": "ai-tooling",
 }
