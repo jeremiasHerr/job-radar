@@ -1,6 +1,7 @@
 export type Data = {
     meta: {total_jobs: number, captured_since: string, last_capture: string },
     jobs: Job[]
+    technologies: Record<string, string>
 }
 
 export type Job = {
