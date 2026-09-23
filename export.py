@@ -19,12 +19,15 @@ def main():
         jobs = cur.fetchall()
         cur.execute("SELECT MIN(captured_at) as since, MAX(captured_at) as last_capture, COUNT(*) as total_jobs FROM jobs")
         meta_data = cur.fetchone()
+        cur.execute("SELECT name, category FROM technologies")
+        technologies = {row["name"]: row["category"] for row in cur.fetchall()}
         data = {
             "meta": {"total_jobs":meta_data["total_jobs"], "captured_since": meta_data["since"], "last_capture": meta_data["last_capture"]},
-            "jobs": jobs
+            "jobs": jobs,
+            "technologies": technologies
         }
     conn.close()
-    with open("./public/data.json","w", encoding="utf-8") as f:
+    with open("./frontend/public/data.json","w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, default=serialize, indent=2)     
 
 def serialize(obj):
