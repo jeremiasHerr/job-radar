@@ -40,7 +40,7 @@ export function RankingSection({ data }: { data: RankingProps }) {
 
       <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
         <div className="-mx-6 flex max-w-[100vw] items-center gap-2 overflow-x-auto px-6 pb-1 md:mx-0 md:max-w-full md:flex-wrap md:overflow-visible md:px-0 md:pb-0">
-          <Chip label="Todas" pressed={category === 'all'} onClick={() => data.onCategoryChange('all')} />
+          <Chip label="Todas" pressed={category === "all"} onClick={() => data.onCategoryChange("all")} />
           {PRIMARY_CATEGORIES.map((option) => {
             const style = categoryStyle(option.value)
             return (

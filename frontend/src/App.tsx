@@ -2,14 +2,14 @@ import './App.css'
 import {useEffect, useState} from 'react'
 import type {Data} from "./types"
 import {Page} from "./components/Page.tsx"
-import { buildHero } from './lib/analytics.ts'
+import { buildHero, rankTechnologies, SMALL_SAMPLE} from './lib/analytics.ts'
 import type { HeroData } from './components/types.ts'
 
 function App() {
 
   const [data, setData] = useState<Data | null>(null);
   const [hero, setHero] = useState<HeroData | null>(null);
-
+  const [techCategory, setCategory] = useState("all");
 
   useEffect(() => {
     async function loadData() {
@@ -23,17 +23,20 @@ function App() {
   }, [])
 
   if(!data || !hero ) return <p>Cargando...</p>
+  
+  const rankedItems = rankTechnologies(data.jobs, data.technologies).filter(tech => (tech.category === techCategory || techCategory === "all")).slice(0,15);
+  
   return (
       <Page
       status="ready"
       onRetry={() => {}}
       hero={hero}
       ranking={{
-        items: [],
-        total: 0,
-        isSmall: false,
-        category: "all",
-        onCategoryChange: () => {},
+        items: rankedItems,
+        total: data.jobs.length,
+        isSmall: data.jobs.length < SMALL_SAMPLE,
+        category: techCategory,
+        onCategoryChange: setCategory,
       }}
       seniority={{
         total: 0,

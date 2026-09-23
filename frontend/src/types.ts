@@ -14,7 +14,3 @@ export type Job = {
       category_name: string,
       technology: string[]
 }
-
-export type TechCount = {
-    name: string; count: number
-}
