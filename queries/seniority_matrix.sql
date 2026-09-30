@@ -41,5 +41,5 @@ COALESCE(MAX(share) FILTER (WHERE s.level = 'expert'), 0) AS expert,
 SUM(s.jobs) AS total
 FROM shares s
 GROUP BY s.name
-ORDER BY total DESC
+ORDER BY total DESC, s.name
 LIMIT 10;
