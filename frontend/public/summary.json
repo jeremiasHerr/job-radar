@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "totalJobs": 789,
+    "juniorTotal": 49,
+    "juniorRemoteGlobal": 8,
+    "seniorShare": 90.9,
+    "juniorShare": 6.2,
+    "remoteGlobalShare": 20.5,
+    "sources": [
+      "GetOnBrd"
+    ],
+    "capturedSince": "2026-09-06T21:35:14.276277+00:00",
+    "lastCapture": "2026-09-28T19:05:25.325795+00:00",
+    "publishedSince": "2025-10-01T18:14:12+00:00"
+  },
+  "seniority": {
+    "total": 789,
+    "seniorShare": 90.9,
+    "levels": [
+      {
+        "level": "junior",
+        "count": 49,
+        "isSmall": false
+      },
+      {
+        "level": "semi-senior",
+        "count": 300,
+        "isSmall": false
+      },
+      {
+        "level": "senior",
+        "count": 417,
+        "isSmall": false
+      },
+      {
+        "level": "expert",
+        "count": 23,
+        "isSmall": true
+      }
+    ],
+    "matrix": [
+      {
+        "name": "python",
+        "shares": {
+          "junior": 28.6,
+          "semi-senior": 34.7,
+          "senior": 30.9,
+          "expert": 26.1
+        }
+      },
+      {
+        "name": "aws",
+        "shares": {
+          "junior": 16.3,
+          "semi-senior": 29.0,
+          "senior": 33.1,
+          "expert": 52.2
+        }
+      },
+      {
+        "name": "ci/cd",
+        "shares": {
+          "junior": 14.3,
+          "semi-senior": 27.7,
+          "senior": 35.3,
+          "expert": 34.8
+        }
+      },
+      {
+        "name": "sql",
+        "shares": {
+          "junior": 26.5,
+          "semi-senior": 33.0,
+          "senior": 26.1,
+          "expert": 21.7
+        }
+      },
+      {
+        "name": "rest",
+        "shares": {
+          "junior": 16.3,
+          "semi-senior": 24.3,
+          "senior": 25.7,
+          "expert": 30.4
+        }
+      },
+      {
+        "name": "azure",
+        "shares": {
+          "junior": 16.3,
+          "semi-senior": 17.7,
+          "senior": 26.9,
+          "expert": 21.7
+        }
+      },
+      {
+        "name": "git",
+        "shares": {
+          "junior": 18.4,
+          "semi-senior": 27.3,
+          "senior": 19.2,
+          "expert": 4.3
+        }
+      },
+      {
+        "name": "react",
+        "shares": {
+          "junior": 8.2,
+          "semi-senior": 18.7,
+          "senior": 22.5,
+          "expert": 13.0
+        }
+      },
+      {
+        "name": "typescript",
+        "shares": {
+          "junior": 10.2,
+          "semi-senior": 14.3,
+          "senior": 21.8,
+          "expert": 17.4
+        }
+      },
+      {
+        "name": "docker",
+        "shares": {
+          "junior": 18.4,
+          "semi-senior": 18.7,
+          "senior": 16.1,
+          "expert": 17.4
+        }
+      }
+    ]
+  }
+}

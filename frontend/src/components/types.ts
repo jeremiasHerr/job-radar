@@ -21,6 +21,11 @@ export interface RankedTech {
   category: string
 }
 
+export type Summary = {
+  hero: HeroData
+  seniority: SeniorityProps
+}
+
 export interface HeroData {
   totalJobs: number
   juniorTotal: number
