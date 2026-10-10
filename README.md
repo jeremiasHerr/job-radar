@@ -1,105 +1,79 @@
 # job-radar
 
-A job posting scraper and analyzer for the Argentine and LATAM tech market.
+**What does the LATAM tech job market actually ask for?**
+job-radar collects job postings every day, extracts the technologies each one mentions, and
+turns them into numbers you can check, instead of opinions on what to learn.
 
-Collects listings from job boards, stores them in PostgreSQL, and tracks how
-technology demand evolves over time. Built to answer questions the existing
-boards don't: which stacks actually appear in junior postings, how remote work
-requirements differ from on-site ones, and how demand shifts month over month.
+The frontend is published as **Pomelo Lab**.
 
-Currently ingests from [GetOnBrd](https://www.getonbrd.com/).
+## What it shows
 
-## Findings
+From 942 tech postings captured from [GetOnBrd](https://www.getonbrd.com/) (Sept–Oct 2026):
 
-From 611 postings across 8 categories (Sept 2026):
+- **5.7%** are aimed at junior profiles. **91.7%** ask for semi-senior or senior.
+- **19.6%** are fully remote with no country restriction.
+- Only **8 postings** are both junior and globally remote.
+- Some skills scale with seniority, others don't. **AWS** goes from 17% of junior postings to
+  32% of senior ones, and **CI/CD** from 15% to 36%. **Python** and **SQL** stay roughly flat
+  across every level.
 
-- **6.7%** target junior or entry level
-- **20%** are fully remote without geographic restrictions
-- **1%** are both
+## How it works
 
-## Setup
-
-```bash
-python -m venv .venv
-source .venv/Scripts/activate    # Linux/macOS: .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env             # add your PostgreSQL connection string
+```
+GetOnBrd API ──► main.py ──► Postgres (Neon) ──► extract.py ──► export.py ──► static JSON ──► React
+   (daily)       ingest       raw + normalized    tech matching    SQL → JSON                  frontend
 ```
 
-Create the schema:
+A GitHub Action runs the whole pipeline every day and commits the updated data.
 
-```bash
-psql $DATABASE_URL -f schema.sql
-```
+## Decisions
 
-Run:
+**Store raw, process later.** Every posting is saved with its full original payload (JSONB)
+next to the normalized columns. If a mapping turns out to be wrong, it can be fixed and
+reapplied without re-fetching anything. Postings are never deleted. Derived tables are
+rebuilt from them.
 
-```bash
-python main.py
-```
+**Normalize at the edge.** Each source has its own vocabulary for seniority and remote work.
+It's translated into a canonical one at ingestion, so analysis code doesn't need to know
+where a posting came from.
 
-The script is idempotent, running it repeatedly only adds postings that
-weren't seen before.
+**Dictionary-based extraction, not an LLM (yet).** 270+ terms matched with word boundaries,
+longest first, so `react native` isn't also counted as `react` and `go` isn't found inside
+`google`. Covers 97% of postings. The trade-off is that it can't read context: "no Java
+required" still counts as Java.
 
-## Data model
+**Numbers are computed in SQL, once.** The frontend receives precomputed sections instead of
+recalculating them in TypeScript.
 
-Some design decisions:
+**Static JSON, no backend.** No server to maintain, no database exposed to the internet, no
+hosting cost. At this data size, filtering in the browser is instant.
 
-- **`raw` (JSONB) stores the complete original payload.** Any field not yet
-  promoted to a column can still be queried and backfilled later without
-  re-fetching from the API.
-- **`captured_at` records when the posting was first seen**, which is what makes
-  time-series analysis possible even though the API only exposes current listings.
+**Small samples are labeled, not hidden.** Any slice under 30 postings is marked as such in
+the UI. A ranking over 6 postings doesn't mean much, and the page says so.
 
-## Normalization
+**Daily capture is a requirement, not a convenience.** A posting published and closed between
+two captures is lost for good. The time series is only as complete as the capture cadence.
 
-Each source uses its own vocabulary, so values are mapped to a canonical one at
-ingestion. Both the raw and normalized values are stored, so mappings can be
-revised and reapplied retroactively.
+## Limitations
 
-### Seniority
-
-`no_experience` · `junior` · `semi_senior` · `senior` · `expert` · `unknown`
-
-### Remote modality
-
-| Value | Meaning |
-|---|---|
-| `onsite` | No remote work |
-| `hybrid` | Partially remote |
-| `remote` | Fully remote, no geographic restriction |
-| `remote_local` | Remote, but restricted to the company's country |
-| `remote_unspecified` | Remote, source doesn't specify restrictions |
-| `unknown` | Could not be mapped |
-
-`remote_unspecified` exists for future sources that don't make the
-`remote` / `remote_local` distinction.
-
-## Source limitations
-
-Documented quirks found in the GetOnBrd API:
-
-- **`countries` mixes modality with geography.** Some postings list `"Remote"`
-  as the country, so the actual location is lost.
-- **`expand` returns HTTP 500** on `/search/jobs`, so related entities can't be
-  fetched inline.
-- **Tag IDs don't resolve.** Postings reference tags by numeric ID, but `/tags`
-  returns slug-based IDs. Raw IDs are stored for later mapping.
-- **No currency field.** Salary ranges have no declared currency; USD is
-  inferred from the value ranges.
-- **`lang` is unreliable.** Postings written entirely in Spanish are frequently
-  marked as `"en"`.
-
-## Roadmap
-
-- [ ] Resolve company names via `/companies/{id}` with a local cache
-- [ ] Extract technologies from posting text (`description`, `functions`, `desirable`)
-- [ ] Normalize technology names and synonyms into a dedicated table
-- [ ] Analytics queries: demand by stack, seniority, and modality over time
-- [ ] Track posting lifespan via `ON CONFLICT DO UPDATE` on `updated_at`
-- [ ] Add Argentine job boards as additional sources
-- [ ] Validate the extractor against an LLM labeled sample.
+- One source, mostly Chilean and product-company postings. No oil & gas, large consultancies,
+  public sector or university job boards.
+- Postings from before the first capture (Sept 6, 2026) are biased: they're the ones still
+  open that day, which skews toward hard-to-fill roles.
+- No capture between Sept 28 and Oct 9, 2026.
 
 ## Stack
 
-Python · PostgreSQL (Neon) · psycopg · requests · BeautifulSoup
+Python · PostgreSQL (Neon) · psycopg · BeautifulSoup · GitHub Actions ·
+React · TypeScript · Vite · Tailwind · Recharts
+
+## Run it locally
+
+```bash
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv/Scripts/activate
+pip install -r requirements.txt
+cp .env.example .env                                 # add DATABASE_URL
+psql $DATABASE_URL -f schema.sql
+bash data_setup.sh                                   # seed → capture → extract → export
+cd frontend && npm install && npm run dev
+```
