@@ -1,9 +1,32 @@
 import './App.css'
-import {useEffect, useState} from 'react'
+import {useCallback, useEffect, useState} from 'react'
 import type {Data} from "./types"
 import {Page} from "./components/Page.tsx"
 import { rankTechnologies, SMALL_SAMPLE} from './lib/analytics.ts'
-import type { Summary } from './components/types.ts'
+import type { PageStatus, Summary } from './components/types.ts'
+import { PageSkeleton } from './components/sections/PageSkeleton.tsx'
+import { ErrorState } from './components/sections/ErrorState.tsx'
+
+type LoadedData = { data: Data; summary: Summary }
+
+/** Fetches both JSON files. Returns null on any network or HTTP failure. */
+async function loadData(): Promise<LoadedData | null> {
+  try {
+    const [dataRes, summaryRes] = await Promise.all([
+      fetch("/data.json"),
+      fetch("/summary.json"),
+    ]);
+    if (!dataRes.ok) throw new Error(`data.json: HTTP ${dataRes.status}`);
+    if (!summaryRes.ok) throw new Error(`summary.json: HTTP ${summaryRes.status}`);
+
+    const data: Data = await dataRes.json();
+    const summary: Summary = await summaryRes.json();
+    return { data, summary };
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
 
 function App() {
 
@@ -11,29 +34,36 @@ function App() {
   const [techCategory, setCategory] = useState("all");
   const [summary, setSummary] = useState<Summary | null>(null);
 
-  useEffect(() => {
-    async function loadData() {
-      const [dataRes, summaryRes] = await Promise.all([
-        fetch("/data.json"),
-        fetch("/summary.json"),
-      ]);
-      const result: Data = await dataRes.json();
-      const summaryResult: Summary = await summaryRes.json();
+  const [status, setStatus] = useState<PageStatus>("loading");
 
-      setData(result);
-      setSummary(summaryResult);
+  const applyLoaded = useCallback((loaded: LoadedData | null) => {
+    if (!loaded) {
+      setStatus("error");
+      return;
     }
-    loadData();
-  }, [])
+    setData(loaded.data);
+    setSummary(loaded.summary);
+    setStatus("ready");
+  }, []);
 
-  if(!data || !summary ) return <p>Cargando...</p>
-  
+  useEffect(() => {
+    loadData().then(applyLoaded);
+  }, [applyLoaded])
+
+  function handleRetry() {
+    setStatus("loading");
+    loadData().then(applyLoaded);
+  }
+
+  if (status === "loading") return <PageSkeleton />
+  if (status === "error" || !data || !summary) return <ErrorState onRetry={handleRetry} />
+
   const rankedItems = rankTechnologies(data.jobs, data.technologies).filter(tech => (tech.category === techCategory || techCategory === "all")).slice(0,15);
   
   return (
       <Page
-      status="ready"
-      onRetry={() => {}}
+      status={status}
+      onRetry={handleRetry}
       hero={summary.hero}
       ranking={{
         items: rankedItems,
