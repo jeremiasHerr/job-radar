@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 970,
+    "total_jobs": 971,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-10T02:18:04.295022+00:00"
+    "last_capture": "2026-10-10T15:53:28.001969+00:00"
   },
   "jobs": [
     {
@@ -10297,6 +10297,23 @@
       "remote_modality_normalized": "remote_local",
       "published_at": "2026-09-30T13:39:54+00:00",
       "url": "https://www.getonbrd.com/jobs/gtm-engineer-niuro-remote",
+      "category_name": "Programming",
+      "technology": [
+        "git",
+        "javascript",
+        "python",
+        "rest",
+        "sql"
+      ]
+    },
+    {
+      "id": "gtm-engineer-niuro-remote-9639",
+      "title": "GTM Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-10T07:06:29+00:00",
+      "url": "https://www.getonbrd.com/jobs/gtm-engineer-niuro-remote-9639",
       "category_name": "Programming",
       "technology": [
         "git",

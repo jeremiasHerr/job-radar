@@ -1,6 +1,6 @@
 {
   "hero": {
-    "totalJobs": 942,
+    "totalJobs": 943,
     "juniorTotal": 54,
     "juniorRemoteGlobal": 8,
     "seniorShare": 91.7,
@@ -10,11 +10,11 @@
       "GetOnBrd"
     ],
     "capturedSince": "2026-09-06T21:35:14.276277+00:00",
-    "lastCapture": "2026-10-10T02:18:04.295022+00:00",
+    "lastCapture": "2026-10-10T15:53:28.001969+00:00",
     "publishedSince": "2025-10-01T18:14:12+00:00"
   },
   "seniority": {
-    "total": 942,
+    "total": 943,
     "seniorShare": 91.7,
     "levels": [
       {
@@ -29,7 +29,7 @@
       },
       {
         "level": "senior",
-        "count": 519,
+        "count": 520,
         "isSmall": false
       },
       {
@@ -53,7 +53,7 @@
         "shares": {
           "junior": 27.8,
           "semi-senior": 35.4,
-          "senior": 30.3,
+          "senior": 30.4,
           "expert": 29.2
         }
       },
@@ -62,7 +62,7 @@
         "shares": {
           "junior": 16.7,
           "semi-senior": 29.6,
-          "senior": 32.2,
+          "senior": 32.1,
           "expert": 54.2
         }
       },
@@ -71,7 +71,7 @@
         "shares": {
           "junior": 25.9,
           "semi-senior": 33.6,
-          "senior": 26.4,
+          "senior": 26.5,
           "expert": 25.0
         }
       },
@@ -80,7 +80,7 @@
         "shares": {
           "junior": 16.7,
           "semi-senior": 22.6,
-          "senior": 26.8,
+          "senior": 26.9,
           "expert": 29.2
         }
       },
@@ -98,7 +98,7 @@
         "shares": {
           "junior": 20.4,
           "semi-senior": 28.7,
-          "senior": 19.1,
+          "senior": 19.2,
           "expert": 4.2
         }
       },
@@ -116,7 +116,7 @@
         "shares": {
           "junior": 11.1,
           "semi-senior": 15.1,
-          "senior": 21.8,
+          "senior": 21.7,
           "expert": 16.7
         }
       },
