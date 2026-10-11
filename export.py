@@ -10,6 +10,7 @@ from datetime import datetime,date
 LEVELS = ["junior", "semi-senior", "senior", "expert"]
 SMALL_SAMPLE = 30
 SOURCES = ["GetOnBrd"]
+MODALITIES = ["remote", "remote_local", "hybrid", "onsite"]
 
 def main():
     load_dotenv()
@@ -40,8 +41,9 @@ def main():
         }
         seniority = build_seniority(conn)
         hero = build_hero(conn)
+        juniors = build_juniors(conn)
         with open("./frontend/public/summary.json", "w", encoding="utf-8") as f:
-            json.dump({"hero": hero, "seniority": seniority}, f , ensure_ascii=False,default=serialize, indent=2)
+            json.dump({"hero": hero, "seniority": seniority, "juniors": juniors}, f , ensure_ascii=False,default=serialize, indent=2)
     conn.close()
     with open("./frontend/public/data.json","w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, default=serialize, indent=2)     
@@ -98,6 +100,20 @@ def build_hero(conn):
         "publishedSince": row["published_since"]
     }
     return hero
+
+def build_juniors(conn):
+    with conn.cursor(row_factory=dict_row) as cur:
+        with open("queries/juniors.sql", encoding="utf-8") as f:
+            cur.execute(f.read())
+        rows = cur.fetchall()
+    juniors = {}
+    for scope, column in (("all", "all_count"), ("junior", "junior_count")):
+        by_modality = {row["modality"]: row[column] for row in rows}
+        juniors[scope] = {
+            "total": sum(by_modality.values()),
+            "counts": {modality: by_modality.get(modality, 0) for modality in MODALITIES}
+        }
+    return juniors
 
 
 def serialize(obj):

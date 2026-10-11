@@ -130,5 +130,25 @@
         }
       }
     ]
+  },
+  "juniors": {
+    "all": {
+      "total": 943,
+      "counts": {
+        "remote": 185,
+        "remote_local": 259,
+        "hybrid": 402,
+        "onsite": 97
+      }
+    },
+    "junior": {
+      "total": 54,
+      "counts": {
+        "remote": 8,
+        "remote_local": 5,
+        "hybrid": 23,
+        "onsite": 18
+      }
+    }
   }
 }

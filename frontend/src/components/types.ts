@@ -24,6 +24,7 @@ export interface RankedTech {
 export type Summary = {
   hero: HeroData
   seniority: SeniorityProps
+  juniors: JuniorsProps
 }
 
 export interface HeroData {

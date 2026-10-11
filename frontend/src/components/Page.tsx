@@ -1,5 +1,4 @@
 import { ErrorState } from './sections/ErrorState'
-import { ExplorerBand } from './sections/ExplorerBand'
 import { Footer } from './sections/Footer'
 import { Hero } from './sections/Hero'
 import { JuniorsBand } from './sections/JuniorsBand'
@@ -23,7 +22,7 @@ export function Page(props: PageProps) {
         <SeniorityBand data={props.seniority} />
         <JuniorsBand data={props.juniors} />
         <TrendBand data={props.trend} />
-        <ExplorerBand data={props.explorer} />
+        {/* TODO: explorador, después del deploy. <ExplorerBand data={props.explorer} /> */}
         <LimitsBand />
       </main>
       <Footer lastCapture={props.hero.lastCapture} />

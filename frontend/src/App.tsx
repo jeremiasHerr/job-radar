@@ -73,10 +73,7 @@ function App() {
         onCategoryChange: setCategory,
       }}
       seniority={summary.seniority}
-      juniors={{
-        all: { total: 0, counts: { remote: 0, remote_local: 0, hybrid: 0, onsite: 0 } },
-        junior: { total: 0, counts: { remote: 0, remote_local: 0, hybrid: 0, onsite: 0 } },
-      }}
+      juniors={summary.juniors}
       trend={{
         capturedSince: summary.hero.capturedSince,
         lastCapture: summary.hero.lastCapture,
