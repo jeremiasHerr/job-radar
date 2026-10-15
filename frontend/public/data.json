@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 991,
+    "total_jobs": 1008,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-14T15:09:58.024118+00:00"
+    "last_capture": "2026-10-15T15:02:25.002746+00:00"
   },
   "jobs": [
     {
@@ -169,6 +169,19 @@
         "linux",
         "oci",
         "oracle"
+      ]
+    },
+    {
+      "id": "agente-de-mesa-de-servicios-ti-factor-it-medellin",
+      "title": "Agente de Mesa de Servicios TI",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-15T02:01:02+00:00",
+      "url": "https://www.getonbrd.com/jobs/agente-de-mesa-de-servicios-ti-factor-it-medellin",
+      "category_name": "Technical Support",
+      "technology": [
+        "itil"
       ]
     },
     {
@@ -1746,6 +1759,25 @@
       ]
     },
     {
+      "id": "arquitecto-a-de-integraciones-gcp-factor-it-santiago",
+      "title": "Arquitecto/a de Integraciones – GCP",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-15T04:38:51+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-a-de-integraciones-gcp-factor-it-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "ci/cd",
+        "devops",
+        "gcp",
+        "microservicios",
+        "rest",
+        "terraform",
+        "togaf"
+      ]
+    },
+    {
       "id": "arquitecto-a-de-software-cloud-aws-bc-tecnologia-santiago",
       "title": "Arquitecto/a de Software Cloud AWS",
       "seniority_normalized": "senior",
@@ -1784,6 +1816,24 @@
       "technology": [
         "cobol",
         "kafka"
+      ]
+    },
+    {
+      "id": "arquitecto-a-de-soluciones-ti-senior-bc-tecnologia-santiago",
+      "title": "Arquitecto/a de Soluciones TI Senior",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T21:24:03+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-a-de-soluciones-ti-senior-bc-tecnologia-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "aws",
+        "aws certified solutions architect",
+        "azure",
+        "gcp",
+        "professional cloud architect",
+        "togaf"
       ]
     },
     {
@@ -3570,6 +3620,29 @@
       ]
     },
     {
+      "id": "data-engineer-artefact-latam-ciudad-de-mexico-lima-bogota-santiago",
+      "title": "Data Engineer",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-15T14:46:24+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-artefact-latam-ciudad-de-mexico-lima-bogota-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "db2",
+        "etl",
+        "mysql",
+        "oracle",
+        "power bi",
+        "pyspark",
+        "python",
+        "sap",
+        "sql server",
+        "sqlite",
+        "tableau"
+      ]
+    },
+    {
       "id": "data-engineer-aws-bc-tecnologia-remote-d2a1",
       "title": "Data Engineer AWS",
       "seniority_normalized": "semi-senior",
@@ -4198,6 +4271,30 @@
       ]
     },
     {
+      "id": "data-operational-engineer-timining-santiago-e34d",
+      "title": "Data Operational Engineer",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T15:27:31+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-operational-engineer-timining-santiago-e34d",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "airflow",
+        "aws",
+        "azure",
+        "ci/cd",
+        "cloudformation",
+        "docker",
+        "etl",
+        "gcp",
+        "git",
+        "python",
+        "sql",
+        "terraform"
+      ]
+    },
+    {
       "id": "data-quality-analyst-data-steward-factor-it-santiago",
       "title": "Data Quality Analyst / Data Steward",
       "seniority_normalized": "semi-senior",
@@ -4406,6 +4503,39 @@
       ]
     },
     {
+      "id": "data-scientist-nivel-ii-unholster-santiago",
+      "title": "Data Scientist Nivel II",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-14T19:57:26+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-scientist-nivel-ii-unholster-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "agentes de ia",
+        "aws",
+        "deep learning",
+        "langchain",
+        "machine learning",
+        "python",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "data-scientist-unholster-santiago-2697",
+      "title": "Data Scientist",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-14T18:54:14+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-scientist-unholster-santiago-2697",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "machine learning",
+        "python"
+      ]
+    },
+    {
       "id": "data-software-engineer-sas-python-improving-remote",
       "title": "Data/Software Engineer (Sas→Python)",
       "seniority_normalized": "senior",
@@ -4499,6 +4629,25 @@
         "pyspark",
         "python",
         "spark"
+      ]
+    },
+    {
+      "id": "dba-microsoft-sql-server-senior-bc-tecnologia-santiago",
+      "title": "DBA Microsoft SQL Server Senior",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T15:38:56+00:00",
+      "url": "https://www.getonbrd.com/jobs/dba-microsoft-sql-server-senior-bc-tecnologia-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "azure",
+        "gcp",
+        "itil",
+        "jira",
+        "sap",
+        "sql",
+        "sql server"
       ]
     },
     {
@@ -8321,6 +8470,22 @@
       ]
     },
     {
+      "id": "encargado-de-redes-e-infraestructura-ti-unholster-santiago",
+      "title": "Encargado de Redes e Infraestructura TI",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-14T19:53:43+00:00",
+      "url": "https://www.getonbrd.com/jobs/encargado-de-redes-e-infraestructura-ti-unholster-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "active directory",
+        "aws",
+        "azure",
+        "itil"
+      ]
+    },
+    {
       "id": "engineering-manager-data-acquisition-bulk-checkr-santiago",
       "title": "Engineering Manager, Data Acquisition Livecheck",
       "seniority_normalized": "expert",
@@ -10613,6 +10778,23 @@
       ]
     },
     {
+      "id": "growth-engineer-capitaria-santiago",
+      "title": "Growth Engineer",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T16:00:50+00:00",
+      "url": "https://www.getonbrd.com/jobs/growth-engineer-capitaria-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "agentes de ia",
+        "github",
+        "postgresql",
+        "python",
+        "sql"
+      ]
+    },
+    {
       "id": "gtm-engineer-niuro-remote",
       "title": "GTM Engineer",
       "seniority_normalized": "senior",
@@ -11983,6 +12165,24 @@
         "openai",
         "python",
         "pytorch"
+      ]
+    },
+    {
+      "id": "ingeniero-junior-en-inteligencia-artificial-bice-vida-santiago-98ad",
+      "title": "Ingeniero Junior en Inteligencia Artificial",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T15:27:10+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-junior-en-inteligencia-artificial-bice-vida-santiago-98ad",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "anthropic",
+        "aws",
+        "ci/cd",
+        "machine learning",
+        "openai",
+        "python"
       ]
     },
     {
@@ -16912,6 +17112,23 @@
       ]
     },
     {
+      "id": "senior-product-engineer-chipax-remote",
+      "title": "Senior Product Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-14T15:59:48+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-product-engineer-chipax-remote",
+      "category_name": "Programming",
+      "technology": [
+        "aws",
+        "claude code",
+        "cursor",
+        "lambda",
+        "nuxt"
+      ]
+    },
+    {
       "id": "senior-qa-analyst-brain-box-labs-remote",
       "title": "Senior QA Analyst",
       "seniority_normalized": "senior",
@@ -17205,6 +17422,21 @@
       "remote_modality_normalized": "hybrid",
       "published_at": "2026-10-08T14:07:22+00:00",
       "url": "https://www.getonbrd.com/jobs/senior-software-engineer-solvo-global-ciudad-de-mexico-415b",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "c#",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "senior-software-engineer-solvo-global-ciudad-de-mexico-552f",
+      "title": "Senior Software Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-14T21:01:34+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-software-engineer-solvo-global-ciudad-de-mexico-552f",
       "category_name": "Programming",
       "technology": [
         ".net",
