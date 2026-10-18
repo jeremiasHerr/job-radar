@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 1024,
+    "total_jobs": 1038,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-16T14:52:21.674779+00:00"
+    "last_capture": "2026-10-18T14:02:21.724176+00:00"
   },
   "jobs": [
     {
@@ -1115,6 +1115,20 @@
         "linux",
         "postgresql",
         "python"
+      ]
+    },
+    {
+      "id": "analista-de-soporte-sap-basis-junior-factor-it-medellin",
+      "title": "Analista de Soporte SAP Basis Junior",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T17:23:15+00:00",
+      "url": "https://www.getonbrd.com/jobs/analista-de-soporte-sap-basis-junior-factor-it-medellin",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "oracle",
+        "sap"
       ]
     },
     {
@@ -3977,6 +3991,47 @@
       ]
     },
     {
+      "id": "data-engineer-gcp-semi-senior-factor-it-remote",
+      "title": "Data Engineer GCP – Semi Senior",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-16T20:59:00+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-gcp-semi-senior-factor-it-remote",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "etl",
+        "gcp",
+        "python",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-engineer-gcp-senior-tcit-santiago",
+      "title": "Data Engineer GCP Senior",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T16:43:54+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-gcp-senior-tcit-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "airflow",
+        "bigquery",
+        "dbt",
+        "etl",
+        "gcp",
+        "jira",
+        "kanban",
+        "lean",
+        "pandas",
+        "python",
+        "scrum",
+        "spark",
+        "sql"
+      ]
+    },
+    {
       "id": "data-engineer-gobierno-y-seguridad-bc-tecnologia-santiago",
       "title": "Data Engineer Gobierno y Seguridad",
       "seniority_normalized": "semi-senior",
@@ -6484,6 +6539,22 @@
       ]
     },
     {
+      "id": "desarrollador-full-stack-golang-net-react-3it-santiago",
+      "title": "Desarrollador Full-Stack | Golang + .NET + React",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T20:18:11+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-golang-net-react-3it-santiago",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "mongodb",
+        "react",
+        "sql server"
+      ]
+    },
+    {
       "id": "desarrollador-full-stack-hibrido-agilesoft-spa-santiago-d50c",
       "title": "Desarrollador Full-Stack (Híbrido)",
       "seniority_normalized": "semi-senior",
@@ -7719,6 +7790,24 @@
       ]
     },
     {
+      "id": "dev-fullstack-ror-react-integraciones-rankmi-santiago",
+      "title": "Dev Full-Stack (RoR/React) Integraciones API RESTful",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T18:18:15+00:00",
+      "url": "https://www.getonbrd.com/jobs/dev-fullstack-ror-react-integraciones-rankmi-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "ci/cd",
+        "docker",
+        "git",
+        "rails",
+        "react",
+        "ruby"
+      ]
+    },
+    {
       "id": "developer-back-end-python-fastapi-bc-tecnologia-remote",
       "title": "Developer Back-end Python + Fastapi",
       "seniority_normalized": "senior",
@@ -8934,6 +9023,24 @@
         "sql",
         "typescript",
         "xamarin"
+      ]
+    },
+    {
+      "id": "especialista-integracion-pleno-bci-santiago-f68d",
+      "title": "Especialista Integración Pleno",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T16:55:39+00:00",
+      "url": "https://www.getonbrd.com/jobs/especialista-integracion-pleno-bci-santiago-f68d",
+      "category_name": "Programming",
+      "technology": [
+        "java",
+        "kubernetes",
+        "microservicios",
+        "oracle",
+        "spring",
+        "spring boot"
       ]
     },
     {
@@ -11441,6 +11548,22 @@
         "excel",
         "power bi",
         "python"
+      ]
+    },
+    {
+      "id": "ingeniero-a-de-infraestructura-ti-factor-it-medellin",
+      "title": "Ingeniero/a de Infraestructura TI",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T16:00:52+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-infraestructura-ti-factor-it-medellin",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "active directory",
+        "linux",
+        "microsoft 365",
+        "vmware"
       ]
     },
     {
@@ -14230,6 +14353,30 @@
       ]
     },
     {
+      "id": "qa-automation-engineer-bc-tecnologia-santiago-f47a",
+      "title": "QA Automation Engineer",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T15:05:20+00:00",
+      "url": "https://www.getonbrd.com/jobs/qa-automation-engineer-bc-tecnologia-santiago-f47a",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "ci/cd",
+        "cypress",
+        "git",
+        "github actions",
+        "javascript",
+        "kanban",
+        "playwright",
+        "postman",
+        "python",
+        "scrum",
+        "selenium",
+        "typescript"
+      ]
+    },
+    {
       "id": "qa-automation-engineer-gda-bc-tecnologia-remote",
       "title": "QA Automation Engineer (Gda)",
       "seniority_normalized": "semi-senior",
@@ -14855,6 +15002,23 @@
         "microservicios",
         "postman",
         "selenium"
+      ]
+    },
+    {
+      "id": "qa-senior-estrategia-y-performance-continuum-remote",
+      "title": "QA Senior · Estrategia y Performance",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-17T00:40:33+00:00",
+      "url": "https://www.getonbrd.com/jobs/qa-senior-estrategia-y-performance-continuum-remote",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "angular",
+        "ci/cd",
+        "datadog",
+        "grafana",
+        "node"
       ]
     },
     {
@@ -19045,6 +19209,26 @@
       ]
     },
     {
+      "id": "sre-engineer-site-reliability-engineer-factor-it-bogota",
+      "title": "SRE Engineer (Site Reliability Engineer)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T21:17:08+00:00",
+      "url": "https://www.getonbrd.com/jobs/sre-engineer-site-reliability-engineer-factor-it-bogota",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "ansible",
+        "docker",
+        "git",
+        "jenkins",
+        "kubernetes",
+        "linux",
+        "openshift",
+        "terraform"
+      ]
+    },
+    {
       "id": "ssenior-data-engineer-amazon-redshift-expert-niuro-remote",
       "title": "Senior Data Engineer – Amazon Redshift Expert",
       "seniority_normalized": "senior",
@@ -19510,6 +19694,23 @@
       ]
     },
     {
+      "id": "technical-lead-backend-hubspot-integrations-migrations-wendt-partners-remote",
+      "title": "Technical Lead (Back-end Hubspot Integrations & Migrations)",
+      "seniority_normalized": "expert",
+      "level": "expert",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-17T21:43:51+00:00",
+      "url": "https://www.getonbrd.com/jobs/technical-lead-backend-hubspot-integrations-migrations-wendt-partners-remote",
+      "category_name": "Programming",
+      "technology": [
+        "ci/cd",
+        "hubspot",
+        "node",
+        "php",
+        "python"
+      ]
+    },
+    {
       "id": "technical-lead-bc-tecnologia-santiago-26fa",
       "title": "Technical Lead",
       "seniority_normalized": "senior",
@@ -19646,6 +19847,36 @@
       "remote_modality_normalized": "hybrid",
       "published_at": "2026-08-31T14:50:29+00:00",
       "url": "https://www.getonbrd.com/jobs/technical-lead-senior-bci-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "agentes de ia",
+        "angular",
+        "aws",
+        "azure",
+        "copilot",
+        "docker",
+        "express",
+        "gcp",
+        "github",
+        "java",
+        "javascript",
+        "kubernetes",
+        "microservicios",
+        "mongodb",
+        "openai",
+        "postgresql",
+        "react",
+        "typescript"
+      ]
+    },
+    {
+      "id": "technical-lead-senior-bci-santiago-3e19",
+      "title": "Technical Lead Senior",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-16T18:13:20+00:00",
+      "url": "https://www.getonbrd.com/jobs/technical-lead-senior-bci-santiago-3e19",
       "category_name": "Programming",
       "technology": [
         "agentes de ia",
