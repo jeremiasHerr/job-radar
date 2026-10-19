@@ -1,21 +1,21 @@
 {
   "hero": {
-    "totalJobs": 1003,
+    "totalJobs": 1007,
     "juniorTotal": 58,
     "juniorRemoteGlobal": 8,
-    "seniorShare": 91.5,
+    "seniorShare": 91.6,
     "juniorShare": 5.8,
     "remoteGlobalShare": 19.1,
     "sources": [
       "GetOnBrd"
     ],
     "capturedSince": "2026-09-06T21:35:14.276277+00:00",
-    "lastCapture": "2026-10-18T14:02:21.724176+00:00",
+    "lastCapture": "2026-10-19T16:59:39.791991+00:00",
     "publishedSince": "2025-10-01T18:14:12+00:00"
   },
   "seniority": {
-    "total": 1003,
-    "seniorShare": 91.5,
+    "total": 1007,
+    "seniorShare": 91.6,
     "levels": [
       {
         "level": "junior",
@@ -24,12 +24,12 @@
       },
       {
         "level": "semi-senior",
-        "count": 376,
+        "count": 377,
         "isSmall": false
       },
       {
         "level": "senior",
-        "count": 542,
+        "count": 545,
         "isSmall": false
       },
       {
@@ -43,7 +43,7 @@
         "name": "ci/cd",
         "shares": {
           "junior": 15.5,
-          "semi-senior": 31.1,
+          "semi-senior": 31.0,
           "senior": 36.3,
           "expert": 33.3
         }
@@ -52,8 +52,8 @@
         "name": "python",
         "shares": {
           "junior": 27.6,
-          "semi-senior": 36.2,
-          "senior": 30.3,
+          "semi-senior": 36.1,
+          "senior": 30.5,
           "expert": 37.0
         }
       },
@@ -61,7 +61,7 @@
         "name": "aws",
         "shares": {
           "junior": 17.2,
-          "semi-senior": 30.6,
+          "semi-senior": 30.5,
           "senior": 32.5,
           "expert": 48.1
         }
@@ -70,8 +70,8 @@
         "name": "sql",
         "shares": {
           "junior": 24.1,
-          "semi-senior": 33.2,
-          "senior": 26.8,
+          "semi-senior": 33.4,
+          "senior": 27.0,
           "expert": 25.9
         }
       },
@@ -79,7 +79,7 @@
         "name": "rest",
         "shares": {
           "junior": 15.5,
-          "semi-senior": 22.6,
+          "semi-senior": 22.5,
           "senior": 26.6,
           "expert": 25.9
         }
@@ -88,8 +88,8 @@
         "name": "git",
         "shares": {
           "junior": 20.7,
-          "semi-senior": 29.5,
-          "senior": 19.2,
+          "semi-senior": 29.4,
+          "senior": 19.3,
           "expert": 3.7
         }
       },
@@ -97,8 +97,8 @@
         "name": "azure",
         "shares": {
           "junior": 17.2,
-          "semi-senior": 18.1,
-          "senior": 26.0,
+          "semi-senior": 18.3,
+          "senior": 25.9,
           "expert": 22.2
         }
       },
@@ -106,8 +106,8 @@
         "name": "react",
         "shares": {
           "junior": 8.6,
-          "semi-senior": 21.3,
-          "senior": 22.1,
+          "semi-senior": 21.2,
+          "senior": 22.0,
           "expert": 11.1
         }
       },
@@ -116,7 +116,7 @@
         "shares": {
           "junior": 12.1,
           "semi-senior": 15.4,
-          "senior": 21.4,
+          "senior": 21.3,
           "expert": 14.8
         }
       },
@@ -124,7 +124,7 @@
         "name": "docker",
         "shares": {
           "junior": 17.2,
-          "semi-senior": 19.7,
+          "semi-senior": 19.6,
           "senior": 16.1,
           "expert": 14.8
         }
@@ -133,11 +133,11 @@
   },
   "juniors": {
     "all": {
-      "total": 1003,
+      "total": 1007,
       "counts": {
         "remote": 192,
-        "remote_local": 271,
-        "hybrid": 440,
+        "remote_local": 273,
+        "hybrid": 442,
         "onsite": 100
       }
     },

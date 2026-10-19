@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 1038,
+    "total_jobs": 1042,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-18T14:02:21.724176+00:00"
+    "last_capture": "2026-10-19T16:59:39.791991+00:00"
   },
   "jobs": [
     {
@@ -2173,6 +2173,28 @@
       ]
     },
     {
+      "id": "aws-infrastructure-engineer-niuro-remote",
+      "title": "AWS Infrastructure Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-19T12:26:25+00:00",
+      "url": "https://www.getonbrd.com/jobs/aws-infrastructure-engineer-niuro-remote",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        ".net",
+        "aws",
+        "ci/cd",
+        "devops",
+        "docker",
+        "ec2",
+        "lambda",
+        "llm",
+        "s3",
+        "terraform"
+      ]
+    },
+    {
       "id": "back-end-developer-java-spring-boot-42labs-santiago",
       "title": "Back-end Developer (Java/Spring Boot)",
       "seniority_normalized": "senior",
@@ -4028,6 +4050,24 @@
         "python",
         "scrum",
         "spark",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-engineer-gcp-tcit-santiago",
+      "title": "Data Engineer GCP / por Proyecto",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T14:17:52+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-gcp-tcit-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "bigquery",
+        "gcp",
+        "git",
+        "python",
+        "rest",
         "sql"
       ]
     },
@@ -12906,6 +12946,21 @@
       ]
     },
     {
+      "id": "lead-ai-engineer-improving-remote",
+      "title": "Lead AI Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-19T14:03:58+00:00",
+      "url": "https://www.getonbrd.com/jobs/lead-ai-engineer-improving-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "databricks",
+        "python",
+        "sql"
+      ]
+    },
+    {
       "id": "lead-data-engineer-azure-softserve-remote",
       "title": "Lead Data Engineer (Azure)",
       "seniority_normalized": "expert",
@@ -14805,6 +14860,24 @@
         "java",
         "microservicios",
         "postgresql",
+        "postman",
+        "sql"
+      ]
+    },
+    {
+      "id": "qa-funcional-banca-por-proyecto-tcit-santiago",
+      "title": "QA Funcional (Banca) / por Proyecto",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T14:55:32+00:00",
+      "url": "https://www.getonbrd.com/jobs/qa-funcional-banca-por-proyecto-tcit-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "azure",
+        "confluence",
+        "devops",
+        "jira",
         "postman",
         "sql"
       ]
