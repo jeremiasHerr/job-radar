@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 1042,
+    "total_jobs": 1056,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-19T16:59:39.791991+00:00"
+    "last_capture": "2026-10-20T15:07:01.153137+00:00"
   },
   "jobs": [
     {
@@ -690,6 +690,31 @@
       "category_name": "Machine Learning & AI",
       "technology": [
         "jira",
+        "sql"
+      ]
+    },
+    {
+      "id": "ai-trainee-aprendiz-de-inteligencia-artificial-factor-it-remote",
+      "title": "Aprendiz de Inteligencia Artificial Contrato Sena",
+      "seniority_normalized": "no experience",
+      "level": "junior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-19T20:53:42+00:00",
+      "url": "https://www.getonbrd.com/jobs/ai-trainee-aprendiz-de-inteligencia-artificial-factor-it-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "aws",
+        "claude",
+        "copilot",
+        "generative ai",
+        "git",
+        "github",
+        "ia generativa",
+        "langchain",
+        "machine learning",
+        "prompt engineering",
+        "python",
+        "rag",
         "sql"
       ]
     },
@@ -2020,6 +2045,31 @@
       ]
     },
     {
+      "id": "arquitecto-de-datos-sr-data-ai-grupo-mariposa-remote-48e8",
+      "title": "Arquitecto de Datos (Data & AI)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-19T17:05:29+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-de-datos-sr-data-ai-grupo-mariposa-remote-48e8",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "agentes de ia",
+        "azure",
+        "ci/cd",
+        "databricks",
+        "dp-203",
+        "github actions",
+        "mongodb",
+        "power bi",
+        "pyspark",
+        "python",
+        "sap",
+        "sql",
+        "terraform"
+      ]
+    },
+    {
       "id": "arquitecto-de-infraestructura-agilesoft-spa-santo-domingo-santo-domingo",
       "title": "Arquitecto de Infraestructura",
       "seniority_normalized": "senior",
@@ -3043,6 +3093,27 @@
       ]
     },
     {
+      "id": "business-analyst-ssr-banca-tcit-santiago",
+      "title": "Business Analyst SSR | Banca",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T11:33:22+00:00",
+      "url": "https://www.getonbrd.com/jobs/business-analyst-ssr-banca-tcit-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "azure",
+        "confluence",
+        "devops",
+        "gcp",
+        "jira",
+        "looker",
+        "miro",
+        "power bi",
+        "sql"
+      ]
+    },
+    {
       "id": "business-analytics-salesforce-crm-bice-vida-santiago",
       "title": "Business Analytics – Salesforce & CRM",
       "seniority_normalized": "semi-senior",
@@ -4043,6 +4114,32 @@
         "dbt",
         "etl",
         "gcp",
+        "jira",
+        "kanban",
+        "lean",
+        "pandas",
+        "python",
+        "scrum",
+        "spark",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-engineer-gcp-ssr-tcit-santiago",
+      "title": "Data Engineer GCP SSR",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T18:54:19+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-gcp-ssr-tcit-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "airflow",
+        "bigquery",
+        "dbt",
+        "etl",
+        "gcp",
+        "git",
         "jira",
         "kanban",
         "lean",
@@ -7062,6 +7159,41 @@
       ]
     },
     {
+      "id": "desarrollador-full-stack-web-foco-backend-witi-santiago",
+      "title": "Desarrollador Full-Stack (Web/Foco Back-end)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T17:33:16+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-web-foco-backend-witi-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "angular",
+        "ci/cd",
+        "devops",
+        "django",
+        "express",
+        "fastapi",
+        "git",
+        "github actions",
+        "graphql",
+        "javascript",
+        "kanban",
+        "microservicios",
+        "mongodb",
+        "mysql",
+        "nestjs",
+        "node",
+        "postgresql",
+        "python",
+        "react",
+        "sass",
+        "scrum",
+        "typescript",
+        "vue"
+      ]
+    },
+    {
       "id": "desarrollador-fullsatck-bc-tecnologia-remote",
       "title": "Full-Stack Developer Angular Node.js",
       "seniority_normalized": "semi-senior",
@@ -7507,6 +7639,31 @@
         "ci/cd",
         "dart",
         "flutter"
+      ]
+    },
+    {
+      "id": "desarrollador-mobile-mediastream-bogota-santiago-bf34",
+      "title": "Desarrollador Ctv",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-20T12:34:59+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-mobile-mediastream-bogota-santiago-bf34",
+      "category_name": "Programming",
+      "technology": [
+        "android",
+        "ci/cd",
+        "figma",
+        "firebase",
+        "graphql",
+        "ios",
+        "java",
+        "javascript",
+        "kotlin",
+        "objective-c",
+        "react native",
+        "rest",
+        "swift"
       ]
     },
     {
@@ -8539,6 +8696,19 @@
         "css",
         "html",
         "javascript"
+      ]
+    },
+    {
+      "id": "disenador-digital-leytonmedia-santiago-481e",
+      "title": "Diseñador Digital",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T19:51:14+00:00",
+      "url": "https://www.getonbrd.com/jobs/disenador-digital-leytonmedia-santiago-481e",
+      "category_name": "Design / UX",
+      "technology": [
+        "html"
       ]
     },
     {
@@ -12425,6 +12595,29 @@
       ]
     },
     {
+      "id": "ingeniero-full-stack-laravel-vue-poderjudicialvirtual-com-remote",
+      "title": "Ingeniero Full-Stack Laravel/Vue",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-20T14:08:54+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-full-stack-laravel-vue-poderjudicialvirtual-com-remote",
+      "category_name": "Programming",
+      "technology": [
+        "aws",
+        "git",
+        "laravel",
+        "linux",
+        "mongodb",
+        "mysql",
+        "php",
+        "playwright",
+        "rest",
+        "stripe",
+        "vue"
+      ]
+    },
+    {
       "id": "ingeniero-full-stack-semi-senior-laravel-react-rflex-io-santiago-bd8c",
       "title": "Ingeniero Full-Stack Semi Senior Laravel React",
       "seniority_normalized": "semi-senior",
@@ -12911,6 +13104,28 @@
         "machine learning",
         "python",
         "sql"
+      ]
+    },
+    {
+      "id": "junior-integrations-developer-inversiones-vertice-limitada-santiago",
+      "title": "Junior Integrations Developer",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-19T21:02:48+00:00",
+      "url": "https://www.getonbrd.com/jobs/junior-integrations-developer-inversiones-vertice-limitada-santiago",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "agentes de ia",
+        "c#",
+        "claude code",
+        "cursor",
+        "playwright",
+        "rest",
+        "sap",
+        "selenium",
+        "typescript"
       ]
     },
     {
@@ -20066,6 +20281,23 @@
       "category_name": "Technical Support",
       "technology": [
         "office 365"
+      ]
+    },
+    {
+      "id": "trainee-python-tcit-santiago-74dd",
+      "title": "Desarrollador Python Junior",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-19T18:15:51+00:00",
+      "url": "https://www.getonbrd.com/jobs/trainee-python-tcit-santiago-74dd",
+      "category_name": "Programming",
+      "technology": [
+        "aws",
+        "java",
+        "javascript",
+        "python",
+        "sql"
       ]
     },
     {

@@ -1,35 +1,35 @@
 {
   "hero": {
-    "totalJobs": 1007,
-    "juniorTotal": 58,
+    "totalJobs": 1017,
+    "juniorTotal": 61,
     "juniorRemoteGlobal": 8,
-    "seniorShare": 91.6,
-    "juniorShare": 5.8,
-    "remoteGlobalShare": 19.1,
+    "seniorShare": 91.3,
+    "juniorShare": 6.0,
+    "remoteGlobalShare": 19.0,
     "sources": [
       "GetOnBrd"
     ],
     "capturedSince": "2026-09-06T21:35:14.276277+00:00",
-    "lastCapture": "2026-10-19T16:59:39.791991+00:00",
+    "lastCapture": "2026-10-20T15:07:01.153137+00:00",
     "publishedSince": "2025-10-01T18:14:12+00:00"
   },
   "seniority": {
-    "total": 1007,
-    "seniorShare": 91.6,
+    "total": 1017,
+    "seniorShare": 91.3,
     "levels": [
       {
         "level": "junior",
-        "count": 58,
+        "count": 61,
         "isSmall": false
       },
       {
         "level": "semi-senior",
-        "count": 377,
+        "count": 382,
         "isSmall": false
       },
       {
         "level": "senior",
-        "count": 545,
+        "count": 547,
         "isSmall": false
       },
       {
@@ -42,26 +42,26 @@
       {
         "name": "ci/cd",
         "shares": {
-          "junior": 15.5,
-          "semi-senior": 31.0,
-          "senior": 36.3,
+          "junior": 14.8,
+          "semi-senior": 31.2,
+          "senior": 36.4,
           "expert": 33.3
         }
       },
       {
         "name": "python",
         "shares": {
-          "junior": 27.6,
-          "semi-senior": 36.1,
-          "senior": 30.5,
+          "junior": 29.5,
+          "semi-senior": 36.4,
+          "senior": 30.3,
           "expert": 37.0
         }
       },
       {
         "name": "aws",
         "shares": {
-          "junior": 17.2,
-          "semi-senior": 30.5,
+          "junior": 19.7,
+          "semi-senior": 30.1,
           "senior": 32.5,
           "expert": 48.1
         }
@@ -69,62 +69,62 @@
       {
         "name": "sql",
         "shares": {
-          "junior": 24.1,
-          "semi-senior": 33.4,
-          "senior": 27.0,
+          "junior": 26.2,
+          "semi-senior": 33.8,
+          "senior": 26.9,
           "expert": 25.9
         }
       },
       {
         "name": "rest",
         "shares": {
-          "junior": 15.5,
-          "semi-senior": 22.5,
-          "senior": 26.6,
+          "junior": 16.4,
+          "semi-senior": 22.3,
+          "senior": 26.9,
           "expert": 25.9
         }
       },
       {
         "name": "git",
         "shares": {
-          "junior": 20.7,
-          "semi-senior": 29.4,
-          "senior": 19.3,
+          "junior": 21.3,
+          "semi-senior": 29.6,
+          "senior": 19.4,
           "expert": 3.7
         }
       },
       {
         "name": "azure",
         "shares": {
-          "junior": 17.2,
-          "semi-senior": 18.3,
-          "senior": 25.9,
+          "junior": 16.4,
+          "semi-senior": 18.6,
+          "senior": 25.8,
           "expert": 22.2
         }
       },
       {
         "name": "react",
         "shares": {
-          "junior": 8.6,
+          "junior": 8.2,
           "semi-senior": 21.2,
-          "senior": 22.0,
+          "senior": 21.9,
           "expert": 11.1
         }
       },
       {
         "name": "typescript",
         "shares": {
-          "junior": 12.1,
+          "junior": 13.1,
           "semi-senior": 15.4,
-          "senior": 21.3,
+          "senior": 21.2,
           "expert": 14.8
         }
       },
       {
         "name": "docker",
         "shares": {
-          "junior": 17.2,
-          "semi-senior": 19.6,
+          "junior": 16.4,
+          "semi-senior": 19.4,
           "senior": 16.1,
           "expert": 14.8
         }
@@ -133,21 +133,21 @@
   },
   "juniors": {
     "all": {
-      "total": 1007,
+      "total": 1017,
       "counts": {
-        "remote": 192,
-        "remote_local": 273,
-        "hybrid": 442,
-        "onsite": 100
+        "remote": 193,
+        "remote_local": 276,
+        "hybrid": 446,
+        "onsite": 102
       }
     },
     "junior": {
-      "total": 58,
+      "total": 61,
       "counts": {
         "remote": 8,
-        "remote_local": 5,
-        "hybrid": 27,
-        "onsite": 18
+        "remote_local": 6,
+        "hybrid": 28,
+        "onsite": 19
       }
     }
   }
