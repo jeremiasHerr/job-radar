@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_jobs": 1056,
+    "total_jobs": 1099,
     "captured_since": "2026-09-06T21:35:14.276277+00:00",
-    "last_capture": "2026-10-20T15:07:01.153137+00:00"
+    "last_capture": "2026-10-22T15:17:45.553232+00:00"
   },
   "jobs": [
     {
@@ -1016,6 +1016,20 @@
       ]
     },
     {
+      "id": "analista-de-negocios-junior-retail-e-inteligencia-artifici-bc-tecnologia-santiago",
+      "title": "Analista de Negocios Junior – Retail e IA (LLM)",
+      "seniority_normalized": "junior",
+      "level": "junior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T02:41:26+00:00",
+      "url": "https://www.getonbrd.com/jobs/analista-de-negocios-junior-retail-e-inteligencia-artifici-bc-tecnologia-santiago",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "ia generativa",
+        "llm"
+      ]
+    },
+    {
       "id": "analista-de-observabilidad-y-operaciones-ti-riskamerica-remote",
       "title": "Analista de Observabilidad y Operaciones TI",
       "seniority_normalized": "semi-senior",
@@ -1662,6 +1676,29 @@
       ]
     },
     {
+      "id": "analytics-engineer-ia-datos-witi-santiago",
+      "title": "Analytics Engineer (IA & Datos)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T19:47:32+00:00",
+      "url": "https://www.getonbrd.com/jobs/analytics-engineer-ia-datos-witi-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "aws",
+        "bigquery",
+        "ci/cd",
+        "claude code",
+        "git",
+        "lambda",
+        "python",
+        "redshift",
+        "s3",
+        "snowflake",
+        "sql"
+      ]
+    },
+    {
       "id": "analytics-engineer-jr-galilei-remote",
       "title": "Analytics Engineer Jr",
       "seniority_normalized": "junior",
@@ -2003,6 +2040,33 @@
       ]
     },
     {
+      "id": "arquitecto-de-datos-devsu-quito-b5df",
+      "title": "Arquitecto de Datos",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T18:13:08+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-de-datos-devsu-quito-b5df",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "aws",
+        "aws certified solutions architect",
+        "cloudformation",
+        "devops",
+        "lambda",
+        "looker",
+        "power bi",
+        "pyspark",
+        "python",
+        "redshift",
+        "s3",
+        "spark",
+        "sql",
+        "tableau",
+        "terraform"
+      ]
+    },
+    {
       "id": "arquitecto-de-datos-lisit-santiago",
       "title": "Arquitecto de Datos",
       "seniority_normalized": "senior",
@@ -2092,6 +2156,29 @@
       ]
     },
     {
+      "id": "arquitecto-de-integracion-software-sector-ban-devsu-quito",
+      "title": "Arquitecto de Integración (Software)",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T18:05:28+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-de-integracion-software-sector-ban-devsu-quito",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "aws",
+        "azure",
+        "ci/cd",
+        "docker",
+        "java",
+        "kafka",
+        "kubernetes",
+        "microservicios",
+        "openshift",
+        "spring boot"
+      ]
+    },
+    {
       "id": "arquitecto-de-integracion-software-sector-financiero-devsu-quito",
       "title": "Arquitecto de Integración (Software) Sector Financiero",
       "seniority_normalized": "senior",
@@ -2148,6 +2235,19 @@
         "microservicios",
         "oci",
         "togaf"
+      ]
+    },
+    {
+      "id": "arquitecto-de-soluciones-devsu-quito",
+      "title": "Arquitecto de Soluciones",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T18:08:28+00:00",
+      "url": "https://www.getonbrd.com/jobs/arquitecto-de-soluciones-devsu-quito",
+      "category_name": "Programming",
+      "technology": [
+        "microservicios"
       ]
     },
     {
@@ -2306,6 +2406,44 @@
       ]
     },
     {
+      "id": "back-end-engineer-nestjs-aws-witi-remote",
+      "title": "Back-end Engineer – Node.js / NestJS",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-21T18:46:17+00:00",
+      "url": "https://www.getonbrd.com/jobs/back-end-engineer-nestjs-aws-witi-remote",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "agentes de ia",
+        "aws",
+        "bigquery",
+        "ci/cd",
+        "docker",
+        "dynamodb",
+        "github actions",
+        "graphql",
+        "jest",
+        "kafka",
+        "kubernetes",
+        "llm",
+        "microservicios",
+        "mongodb",
+        "mysql",
+        "nestjs",
+        "new relic",
+        "node",
+        "postgresql",
+        "rag",
+        "redis",
+        "rest",
+        "spring",
+        "sql",
+        "typescript"
+      ]
+    },
+    {
       "id": "back-end-engineer-node-js-nestjs-witi-remote",
       "title": "Back-end Engineer – Node.js / NestJS",
       "seniority_normalized": "semi-senior",
@@ -2367,6 +2505,26 @@
       ]
     },
     {
+      "id": "back-end-java-developer-senior-factor-it-remote",
+      "title": "Back-end Java Developer Semisenior",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-20T21:56:07+00:00",
+      "url": "https://www.getonbrd.com/jobs/back-end-java-developer-senior-factor-it-remote",
+      "category_name": "Programming",
+      "technology": [
+        "azure",
+        "gcp",
+        "git",
+        "java",
+        "microservicios",
+        "postgresql",
+        "rest",
+        "spring boot"
+      ]
+    },
+    {
       "id": "backend-ai-engineer-python-llm-orchestration-improving-remote",
       "title": "Back-end AI Engineer Python / LLM Orchestration",
       "seniority_normalized": "senior",
@@ -2403,6 +2561,36 @@
         "kafka",
         "python",
         "spark"
+      ]
+    },
+    {
+      "id": "backend-developer-java-3-4-meses-agilistik-santiago",
+      "title": "Back-end Developer Java (3 a 4 Meses)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T18:45:45+00:00",
+      "url": "https://www.getonbrd.com/jobs/backend-developer-java-3-4-meses-agilistik-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "aws",
+        "azure",
+        "devops",
+        "docker",
+        "git",
+        "java",
+        "junit",
+        "kafka",
+        "kubernetes",
+        "lambda",
+        "microservicios",
+        "mockito",
+        "postgresql",
+        "redis",
+        "rest",
+        "s3",
+        "spring boot",
+        "terraform"
       ]
     },
     {
@@ -2914,6 +3102,22 @@
       ]
     },
     {
+      "id": "business-analyst-ba-proyecto-3-4-meses-agilistik-santiago",
+      "title": "Business Analyst Proyecto 3 a 4 Meses",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T21:36:04+00:00",
+      "url": "https://www.getonbrd.com/jobs/business-analyst-ba-proyecto-3-4-meses-agilistik-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "jira",
+        "microservicios",
+        "rest",
+        "scrum"
+      ]
+    },
+    {
       "id": "business-analyst-bc-tecnologia-santiago-c237",
       "title": "Business Analyst",
       "seniority_normalized": "semi-senior",
@@ -3180,6 +3384,23 @@
         "prompt engineering",
         "python",
         "redis"
+      ]
+    },
+    {
+      "id": "client-onboarding-technical-support-fully-automated-remote",
+      "title": "Client Onboarding & Technical Support",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-21T21:27:26+00:00",
+      "url": "https://www.getonbrd.com/jobs/client-onboarding-technical-support-fully-automated-remote",
+      "category_name": "Technical Support",
+      "technology": [
+        "ai agents",
+        "chatgpt",
+        "claude",
+        "n8n",
+        "zapier"
       ]
     },
     {
@@ -4063,6 +4284,22 @@
       ]
     },
     {
+      "id": "data-engineer-finanzas-42labs-santiago-valparaiso-vina-del-mar-rancagua",
+      "title": "Data Engineer (Databrick/SQL/Python)",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T14:00:08+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineer-finanzas-42labs-santiago-valparaiso-vina-del-mar-rancagua",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "databricks",
+        "etl",
+        "python",
+        "sql"
+      ]
+    },
+    {
       "id": "data-engineer-gcp-dillo-tech-remote",
       "title": "Senior Data Engineer (Bigquery, Dbt, Python, Data Modeling)",
       "seniority_normalized": "senior",
@@ -4480,6 +4717,19 @@
         "gcp",
         "snowflake",
         "sql"
+      ]
+    },
+    {
+      "id": "data-engineering-lisit-santiago",
+      "title": "Data Engineering",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T19:45:18+00:00",
+      "url": "https://www.getonbrd.com/jobs/data-engineering-lisit-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "etl"
       ]
     },
     {
@@ -5135,6 +5385,28 @@
         "python",
         "react",
         "rest",
+        "sql"
+      ]
+    },
+    {
+      "id": "desarrollador-a-backend-semi-senior-gcp-factor-it-santiago",
+      "title": "Desarrollador/a Back-end Semi Senior – GCP",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T15:12:52+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-a-backend-semi-senior-gcp-factor-it-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "ci/cd",
+        "docker",
+        "git",
+        "java",
+        "kubernetes",
+        "microservicios",
+        "oracle",
+        "python",
+        "scrum",
         "sql"
       ]
     },
@@ -6692,6 +6964,20 @@
       ]
     },
     {
+      "id": "desarrollador-full-stack-grafton-latam-santiago",
+      "title": "Desarrollador Full-Stack",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T13:45:17+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-grafton-latam-santiago",
+      "category_name": "Programming",
+      "technology": [
+        "django",
+        "python"
+      ]
+    },
+    {
       "id": "desarrollador-full-stack-hibrido-agilesoft-spa-santiago-d50c",
       "title": "Desarrollador Full-Stack (Híbrido)",
       "seniority_normalized": "semi-senior",
@@ -6782,6 +7068,28 @@
       ]
     },
     {
+      "id": "desarrollador-full-stack-liferay-bc-tecnologia-santiago",
+      "title": "Desarrollador Full-Stack Liferay",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T23:30:51+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-liferay-bc-tecnologia-santiago",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "azure",
+        "c#",
+        "ci/cd",
+        "devops",
+        "git",
+        "microservicios",
+        "react",
+        "rest",
+        "sql server"
+      ]
+    },
+    {
       "id": "desarrollador-full-stack-lisit-santiago-f0dd",
       "title": "Desarrollador Full-Stack",
       "seniority_normalized": "senior",
@@ -6846,6 +7154,22 @@
       "remote_modality_normalized": "onsite",
       "published_at": "2026-09-29T16:49:32+00:00",
       "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-mediastream-remote-6deb",
+      "category_name": "Programming",
+      "technology": [
+        "javascript",
+        "kanban",
+        "node",
+        "scrum"
+      ]
+    },
+    {
+      "id": "desarrollador-full-stack-mediastream-remote-971f",
+      "title": "Desarrollador Full-Stack",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T19:04:14+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-mediastream-remote-971f",
       "category_name": "Programming",
       "technology": [
         "javascript",
@@ -7037,6 +7361,30 @@
         "react",
         "redis",
         "typescript"
+      ]
+    },
+    {
+      "id": "desarrollador-full-stack-semi-senior-3it-santiago-6005",
+      "title": "Desarrollador Full-Stack Semi Senior",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T14:35:59+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-full-stack-semi-senior-3it-santiago-6005",
+      "category_name": "Programming",
+      "technology": [
+        "angular",
+        "git",
+        "github",
+        "java",
+        "jenkins",
+        "kubernetes",
+        "mongodb",
+        "oracle",
+        "postman",
+        "redis",
+        "soapui",
+        "spring boot"
       ]
     },
     {
@@ -7800,6 +8148,22 @@
       ]
     },
     {
+      "id": "desarrollador-semi-senior-automatizaciones-e-integraciones-iboost-social-remote",
+      "title": "Desarrollador Semi Senior · Automatizaciones e Integraciones",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "remote",
+      "published_at": "2026-10-20T19:23:49+00:00",
+      "url": "https://www.getonbrd.com/jobs/desarrollador-semi-senior-automatizaciones-e-integraciones-iboost-social-remote",
+      "category_name": "Programming",
+      "technology": [
+        "lovable",
+        "n8n",
+        "sql",
+        "zapier"
+      ]
+    },
+    {
       "id": "desarrollador-senior-back-end-cloud-tcit-santiago",
       "title": "Desarrollador Senior .NET Core/C#",
       "seniority_normalized": "senior",
@@ -8500,6 +8864,27 @@
       ]
     },
     {
+      "id": "devops-engineer-neuralworks-santiago-219c",
+      "title": "DevOps Engineer",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T17:55:25+00:00",
+      "url": "https://www.getonbrd.com/jobs/devops-engineer-neuralworks-santiago-219c",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "aws",
+        "azure",
+        "ci/cd",
+        "devops",
+        "docker",
+        "gcp",
+        "kubernetes",
+        "microservicios",
+        "python"
+      ]
+    },
+    {
       "id": "devops-senior-prontopaga-santiago",
       "title": "DevOps Senior",
       "seniority_normalized": "senior",
@@ -8797,6 +9182,29 @@
         "mongodb",
         "rest",
         "vue"
+      ]
+    },
+    {
+      "id": "dynamics-365-developer-improving-remote",
+      "title": "Dynamics 365 Developer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T02:52:38+00:00",
+      "url": "https://www.getonbrd.com/jobs/dynamics-365-developer-improving-remote",
+      "category_name": "Programming",
+      "technology": [
+        ".net",
+        "agile",
+        "asp.net",
+        "azure",
+        "c#",
+        "ci/cd",
+        "devops",
+        "git",
+        "html",
+        "javascript",
+        "rest"
       ]
     },
     {
@@ -9400,6 +9808,33 @@
         "git",
         "ios",
         "tdd"
+      ]
+    },
+    {
+      "id": "forward-deployed-ai-engineer-devsu-remote",
+      "title": "Forward Deployed AI Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-20T17:58:15+00:00",
+      "url": "https://www.getonbrd.com/jobs/forward-deployed-ai-engineer-devsu-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "agile",
+        "azure",
+        "ci/cd",
+        "claude code",
+        "copilot",
+        "cursor",
+        "databricks",
+        "generative ai",
+        "github",
+        "langchain",
+        "llm",
+        "python",
+        "rag",
+        "scrum",
+        "snowflake"
       ]
     },
     {
@@ -11207,6 +11642,29 @@
       ]
     },
     {
+      "id": "go-engineer-microservices-improving-remote",
+      "title": "Senior Go Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-20T16:13:27+00:00",
+      "url": "https://www.getonbrd.com/jobs/go-engineer-microservices-improving-remote",
+      "category_name": "Programming",
+      "technology": [
+        "agile",
+        "aws",
+        "azure",
+        "devops",
+        "gcp",
+        "go",
+        "grpc",
+        "kafka",
+        "microservices",
+        "rest",
+        "scrum"
+      ]
+    },
+    {
       "id": "growth-42labs-santiago",
       "title": "Growth Data Analyst",
       "seniority_normalized": "senior",
@@ -11514,6 +11972,19 @@
       ]
     },
     {
+      "id": "ingeniero-a-de-calidad-de-datos-agrosuper-rancagua",
+      "title": "Ingeniero/a de Calidad de Datos",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T22:01:03+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-calidad-de-datos-agrosuper-rancagua",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "databricks"
+      ]
+    },
+    {
       "id": "ingeniero-a-de-datos-aws-big-data-bc-tecnologia-remote",
       "title": "Ingeniero/a de Datos AWS",
       "seniority_normalized": "semi-senior",
@@ -11644,6 +12115,29 @@
         "python",
         "redshift",
         "s3",
+        "spark",
+        "sql",
+        "terraform"
+      ]
+    },
+    {
+      "id": "ingeniero-a-de-datos-gcp-bc-tecnologia-santiago",
+      "title": "Ingeniero/a de Datos GCP",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T22:50:43+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-datos-gcp-bc-tecnologia-santiago",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "airflow",
+        "bigquery",
+        "ci/cd",
+        "etl",
+        "gcp",
+        "git",
+        "github",
+        "python",
         "spark",
         "sql",
         "terraform"
@@ -12118,6 +12612,27 @@
         "linux",
         "prometheus",
         "python",
+        "terraform"
+      ]
+    },
+    {
+      "id": "ingeniero-cloud-ops-sr-talento-estrategico-ges-san-salvador",
+      "title": "Ingeniero Cloud Ops Sr",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T21:10:24+00:00",
+      "url": "https://www.getonbrd.com/jobs/ingeniero-cloud-ops-sr-talento-estrategico-ges-san-salvador",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "ansible",
+        "aws",
+        "azure",
+        "ci/cd",
+        "docker",
+        "gcp",
+        "kubernetes",
+        "linux",
         "terraform"
       ]
     },
@@ -13161,6 +13676,50 @@
       ]
     },
     {
+      "id": "lead-agentic-ai-consultant-softserve-remote",
+      "title": "Lead Agentic AI Consultant",
+      "seniority_normalized": "expert",
+      "level": "expert",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T20:05:09+00:00",
+      "url": "https://www.getonbrd.com/jobs/lead-agentic-ai-consultant-softserve-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "ai agents",
+        "aws",
+        "azure",
+        "deep learning",
+        "gcp",
+        "go",
+        "hugging face",
+        "langchain",
+        "machine learning",
+        "numpy",
+        "openai",
+        "pandas",
+        "python",
+        "pytorch",
+        "rag",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "lead-ai-engineer-databricks-contract-intelligence-improving-remote",
+      "title": "Lead AI Engineer (Databricks & Contract Intelligence)",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T02:25:19+00:00",
+      "url": "https://www.getonbrd.com/jobs/lead-ai-engineer-databricks-contract-intelligence-improving-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "databricks",
+        "llm",
+        "python",
+        "sql"
+      ]
+    },
+    {
       "id": "lead-ai-engineer-improving-remote",
       "title": "Lead AI Engineer",
       "seniority_normalized": "senior",
@@ -13289,6 +13848,22 @@
       ]
     },
     {
+      "id": "lider-devops-talento-estrategico-ges-san-salvador",
+      "title": "Lider DevOps",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T21:40:14+00:00",
+      "url": "https://www.getonbrd.com/jobs/lider-devops-talento-estrategico-ges-san-salvador",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "ci/cd",
+        "devops",
+        "gitlab",
+        "terraform"
+      ]
+    },
+    {
       "id": "lider-tecnico-backend-senior-factor-it-santiago",
       "title": "Líder Técnico Back-end Senior",
       "seniority_normalized": "senior",
@@ -13302,6 +13877,59 @@
         "linux",
         "oci",
         "oracle"
+      ]
+    },
+    {
+      "id": "lider-tecnico-de-desarrollo-movil-y-web-bc-tecnologia-santiago",
+      "title": "Líder Técnico de Desarrollo Móvil y Web",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T23:08:16+00:00",
+      "url": "https://www.getonbrd.com/jobs/lider-tecnico-de-desarrollo-movil-y-web-bc-tecnologia-santiago",
+      "category_name": "Mobile Development",
+      "technology": [
+        "angular",
+        "ci/cd",
+        "git",
+        "github",
+        "github actions",
+        "gitlab",
+        "graphql",
+        "react",
+        "react native",
+        "redux",
+        "rest",
+        "typescript",
+        "zustand"
+      ]
+    },
+    {
+      "id": "lider-tecnico-de-desarrollo-talento-estrategico-ges-san-salvador",
+      "title": "Líder Técnico de Desarrollo",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-20T21:44:13+00:00",
+      "url": "https://www.getonbrd.com/jobs/lider-tecnico-de-desarrollo-talento-estrategico-ges-san-salvador",
+      "category_name": "Programming",
+      "technology": [
+        "angular",
+        "aws",
+        "ci/cd",
+        "docker",
+        "gcp",
+        "github actions",
+        "go",
+        "graphql",
+        "mongodb",
+        "mysql",
+        "nestjs",
+        "node",
+        "postgresql",
+        "react",
+        "rest",
+        "vue"
       ]
     },
     {
@@ -13500,6 +14128,39 @@
         "python",
         "rag",
         "tableau"
+      ]
+    },
+    {
+      "id": "machine-learning-engineer-improving-remote",
+      "title": "Machine Learning Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T15:42:47+00:00",
+      "url": "https://www.getonbrd.com/jobs/machine-learning-engineer-improving-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "agile",
+        "aws",
+        "claude code",
+        "copilot",
+        "datadog",
+        "docker",
+        "git",
+        "github",
+        "kubernetes",
+        "llm",
+        "machine learning",
+        "mlflow",
+        "pytest",
+        "python",
+        "pytorch",
+        "rag",
+        "s3",
+        "scikit-learn",
+        "snowflake",
+        "sql",
+        "terraform"
       ]
     },
     {
@@ -13784,6 +14445,20 @@
         "sap",
         "sql",
         "sql server"
+      ]
+    },
+    {
+      "id": "msp-senior-system-engineer-pacific-cloud-cyber-remote",
+      "title": "Msp Senior System Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T21:09:38+00:00",
+      "url": "https://www.getonbrd.com/jobs/msp-senior-system-engineer-pacific-cloud-cyber-remote",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "microsoft 365",
+        "nist"
       ]
     },
     {
@@ -15010,6 +15685,21 @@
       ]
     },
     {
+      "id": "qa-engineer-proyecto-3-a-4-meses-agilistik-santiago",
+      "title": "QA Engineer (Proyecto 3 a 4 Meses)",
+      "seniority_normalized": "semi-senior",
+      "level": "semi-senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T18:54:39+00:00",
+      "url": "https://www.getonbrd.com/jobs/qa-engineer-proyecto-3-a-4-meses-agilistik-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "postman",
+        "rest",
+        "sql"
+      ]
+    },
+    {
       "id": "qa-engineer-qa-analyst-latam-bc-tecnologia-remote",
       "title": "QA Engineer / QA Analyst (LATAM)",
       "seniority_normalized": "semi-senior",
@@ -15909,6 +16599,33 @@
       ]
     },
     {
+      "id": "senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote",
+      "title": "Senior AI Engineer (GenAI, Python, LLMs) / Sector Bancario",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-20T18:01:48+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-ai-engineer-genai-python-llms-sector-bancario-devsu-remote",
+      "category_name": "Machine Learning & AI",
+      "technology": [
+        "agentes de ia",
+        "aws",
+        "azure",
+        "ci/cd",
+        "docker",
+        "hugging face",
+        "ia generativa",
+        "kubernetes",
+        "langchain",
+        "microservicios",
+        "openai",
+        "prompt engineering",
+        "python",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
       "id": "senior-ai-engineer-llms-rag-ai-agents-niuro-remote",
       "title": "Senior AI Engineer (LLMs / RAG / AI Agents)",
       "seniority_normalized": "senior",
@@ -16530,6 +17247,25 @@
       ]
     },
     {
+      "id": "senior-cloud-networking-sre-softserve-remote",
+      "title": "Senior Cloud Networking SRE",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T20:07:09+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-cloud-networking-sre-softserve-remote",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "aws",
+        "gcp",
+        "go",
+        "grafana",
+        "kubernetes",
+        "python",
+        "terraform"
+      ]
+    },
+    {
       "id": "senior-cybersecurity-specialist-factor-it-santiago",
       "title": "Senior Cybersecurity Specialist",
       "seniority_normalized": "senior",
@@ -16665,6 +17401,31 @@
         "databricks",
         "etl",
         "python",
+        "spark",
+        "sql"
+      ]
+    },
+    {
+      "id": "senior-data-engineer-databricks-on-azure-devsu-remote-7b55",
+      "title": "Senior Data Engineer (Databricks on Azure)",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-20T17:11:49+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-data-engineer-databricks-on-azure-devsu-remote-7b55",
+      "category_name": "Data Science / Analytics",
+      "technology": [
+        "azure",
+        "ci/cd",
+        "copilot",
+        "databricks",
+        "devops",
+        "etl",
+        "git",
+        "github",
+        "pyspark",
+        "python",
+        "rest",
         "spark",
         "sql"
       ]
@@ -17569,6 +18330,24 @@
       ]
     },
     {
+      "id": "senior-full-stack-java-developer-test-automation-ai-23people-santiago",
+      "title": "Senior Full-Stack Java Developer (SDET & AI) Bilingüe",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-21T12:32:44+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-full-stack-java-developer-test-automation-ai-23people-santiago",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "angular",
+        "copilot",
+        "github",
+        "java",
+        "playwright",
+        "spring boot"
+      ]
+    },
+    {
       "id": "senior-full-stack-nestjs-react-latam-bc-tecnologia-remote",
       "title": "Senior Full-Stack NestJS React (LATAM)",
       "seniority_normalized": "senior",
@@ -17845,6 +18624,32 @@
       ]
     },
     {
+      "id": "senior-mobile-full-stack-engineer-net-maui-ios-java-improving-remote",
+      "title": "Senior Mobile & Full-Stack Engineer (.NET Maui / iOS / Java)",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T03:55:00+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-mobile-full-stack-engineer-net-maui-ios-java-improving-remote",
+      "category_name": "Mobile Development",
+      "technology": [
+        ".net",
+        "angular",
+        "c#",
+        "db2",
+        "ios",
+        "java",
+        "linux",
+        "oracle",
+        "rest",
+        "sql",
+        "sql server",
+        "sqlite",
+        "vmware",
+        "xamarin"
+      ]
+    },
+    {
       "id": "senior-outsystems-developer-con-ingles-y-espanol-i2b-technologies-remote",
       "title": "Senior Outsystems Developer con Inglés y Español",
       "seniority_normalized": "senior",
@@ -17929,6 +18734,31 @@
       "category_name": "SysAdmin / DevOps / QA",
       "technology": [
         "agile"
+      ]
+    },
+    {
+      "id": "senior-qa-automation-engineer-kaseya-medellin",
+      "title": "Senior QA Automation Engineer",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "onsite",
+      "published_at": "2026-10-22T14:41:38+00:00",
+      "url": "https://www.getonbrd.com/jobs/senior-qa-automation-engineer-kaseya-medellin",
+      "category_name": "SysAdmin / DevOps / QA",
+      "technology": [
+        "agile",
+        "azure",
+        "ci/cd",
+        "devops",
+        "github actions",
+        "gitlab",
+        "javascript",
+        "jenkins",
+        "oracle",
+        "playwright",
+        "salesforce",
+        "scrum",
+        "typescript"
       ]
     },
     {
@@ -20044,6 +20874,32 @@
       ]
     },
     {
+      "id": "technical-lead-dynamic-devs-santiago-9933",
+      "title": "Technical Lead Mobile & Front-end Web",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "hybrid",
+      "published_at": "2026-10-20T16:41:36+00:00",
+      "url": "https://www.getonbrd.com/jobs/technical-lead-dynamic-devs-santiago-9933",
+      "category_name": "Mobile Development",
+      "technology": [
+        "angular",
+        "ci/cd",
+        "devops",
+        "git",
+        "github",
+        "github actions",
+        "gitlab",
+        "graphql",
+        "react",
+        "react native",
+        "redux",
+        "rest",
+        "typescript",
+        "zustand"
+      ]
+    },
+    {
       "id": "technical-lead-dynamic-devs-santiago-da4a",
       "title": "Tech Lead / Arquitecto Front Mobile",
       "seniority_normalized": "senior",
@@ -20482,6 +21338,30 @@
         "graphql",
         "python",
         "rest"
+      ]
+    },
+    {
+      "id": "web-designer-design-first-react-typescript-niuro-remote",
+      "title": "Senior Web Engineer, Public Website",
+      "seniority_normalized": "senior",
+      "level": "senior",
+      "remote_modality_normalized": "remote_local",
+      "published_at": "2026-10-21T20:47:22+00:00",
+      "url": "https://www.getonbrd.com/jobs/web-designer-design-first-react-typescript-niuro-remote",
+      "category_name": "Programming",
+      "technology": [
+        "aws",
+        "ci/cd",
+        "css",
+        "github actions",
+        "next.js",
+        "postgresql",
+        "react",
+        "rest",
+        "s3",
+        "tailwind",
+        "terraform",
+        "typescript"
       ]
     },
     {
